@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+    <title>Аукцион для автомобилей Opel компании Солли-Плюс</title>
+</head>
+<body style="background-color: cornsilk">
+<div class="container">
+    <br>
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+            <li data-target="#myCarousel" data-slide-to="3"></li>
+            <li data-target="#myCarousel" data-slide-to="4"></li>
+            <li data-target="#myCarousel" data-slide-to="5"></li>
+            <li data-target="#myCarousel" data-slide-to="6"></li>
+        </ol>
+
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner" role="listbox">
+            <div class="item active">
+                <img src="img/DSC06560.JPG" alt="Chania" width="460" height="345">
+            </div>
+
+            <div class="item">
+                <img src="img/DSC06599.JPG" alt="Chania" width="460" height="345">
+            </div>
+
+            <div class="item">
+                <img src="img/DSC06607.JPG" alt="Flower" width="460" height="345">
+            </div>
+
+            <div class="item">
+                <img src="img/DSC06637.JPG" alt="Flower" width="460" height="345">
+            </div>
+
+            <div class="item">
+                <img src="img/DSC06645.JPG" alt="Flower" width="460" height="345">
+            </div>
+
+            <div class="item">
+                <img src="img/DSC06675.JPG" alt="Flower" width="460" height="345">
+            </div>
+        </div>
+    </div>
+</div>
+
+<h1>До конца аукциона осталось:</h1>
+<div id="clockdiv">
+    <div>
+        <span class="days"></span>
+        <div class="smalltext">Дни</div>
+    </div>
+    <div>
+        <span class="hours"></span>
+        <div class="smalltext">Часы</div>
+    </div>
+    <div>
+        <span class="minutes"></span>
+        <div class="smalltext">Минуты</div>
+    </div>
+    <div>
+        <span class="seconds"></span>
+        <div class="smalltext">Секунды</div>
+    </div>
+</div>
+<script src="count.js"></script>
+</body>
+</html>
